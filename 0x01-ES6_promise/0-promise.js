@@ -1,13 +1,11 @@
 function getResponseFromAPI() {
     return new Promise((resolve, reject) => {
         const succ = true;
-
         if (succ) {
-            resolve("okay");
+            resolve('okay');
         } else {
-            reject("No")
+            reject('no');
         }
-
     });
 }
 export default getResponseFromAPI;
