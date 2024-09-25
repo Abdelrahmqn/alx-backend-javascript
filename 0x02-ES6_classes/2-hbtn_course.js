@@ -32,7 +32,7 @@ export default class HolbertonCourse {
   }
 
   set students(val) {
-    if (!(Array.isArray(val))) {
+    if (!(typeof val instanceof Array)) {
       throw new TypeError('Studentsstudentss must be array of strings');
     }
 
