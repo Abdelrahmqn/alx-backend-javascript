@@ -20,7 +20,7 @@ export default class Pricing {
 
   set currency(values) {
     if (!(typeof values instanceof Currency)) {
-        throw new TypeError("Error input: code or name wrong");
+      throw new TypeError('Error input: code or name wrong');
     }
     this._currency = values;
   }
